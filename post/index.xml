@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>叽里呱啦的秘密基地</title>
-    <link>https://example.org/algolia.json</link>
+    <title>Posts on 叽里呱啦的秘密基地</title>
+    <link>https://example.org/post/</link>
     <description>Recent content from 叽里呱啦的秘密基地</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
     
     
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
