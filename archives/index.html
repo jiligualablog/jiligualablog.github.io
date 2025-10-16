@@ -61,7 +61,7 @@
   <meta property="article:published_time" content="2022-07-26T21:46:25&#43;08:00" />
   <meta property="article:modified_time" content="2022-07-26T21:46:25&#43;08:00" /><meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="/" /><link rel="alternate" type="application/rss+xml" href="https://example.org/archives/index.xml" title="叽里呱啦的秘密基地">
-<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.e248501a5fed6fe6a7d683bbe3b03c14cac78ab0e57026cf7a9b97f42a9a3a79.css" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.a581ce7033b671785f3e63380fa7e61f5c3126ccd17ee783ffbbdcb852a6de19.css" />
 <link
     rel="preload"
     as="style"
@@ -72,7 +72,10 @@
     as="style"
     href="https://npm.webcache.cn/katex@0.16.22/dist/katex.min.css"
     integrity="sha384-5TcZemv2l/9On385z///&#43;d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
-  /><script
+  /><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@waline/client@2.15.8/dist/waline.css"
+    integrity="sha384-vltfZtesCdl6NYVcFVcjEaIi5RpNvZe9t7fXvq8twVtcoy&#43;Ub9QgnxUYJmwOhYCK" crossorigin="anonymous"/><script
     src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
     integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
     rel="stylesheet"
@@ -85,7 +88,11 @@
     <div class="loading-left-bg loading-bg"></div>
     <div class="loading-right-bg loading-bg"></div>
     <div class="spinner-box">
-      <div class="loading-taichi rotate"><img src="/avatar/avatar.webp" alt="loading" /></div><div class="loading-word">少女祈祷中...</div>
+      <div class="loading-taichi rotate"><svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+          M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg></div><div class="loading-word">稳稳地幸福...</div>
     </div>
   </div>
   </div>
@@ -147,7 +154,7 @@
           
           class="sidebar-right"  ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container "><meting-js
         theme="var(--color-link)"
-        id="14421844556"server="netease"type="playlist"auto="true"fixed="false"autoplay="true"volume="0.3"mutex="true"list-folded="true">
+        id="14421844556"server="netease"type="playlist"auto="true"fixed="false"autoplay="false"volume="0.3"mutex="true"list-folded="true">
       </meting-js><div class="sidebar-wrapper">
     <div
       class="sidebar-wrap"
@@ -164,12 +171,12 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">1</div>
+    <div>文章</div><div class="sidebar-state-number">3</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
     <div class="sidebar-state-number">
-      0
+      1
     </div>
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
@@ -217,10 +224,30 @@
       class="widget-wrap"
       data-aos="fade-up"
     >
+      <div style="display: flex; justify-content: space-between;">
+        <h3 class="widget-title">分类</h3></div>
+      <div class="widget">
+        <ul class="category-list"><li class="category-list-item">
+                <a class="category-list-link" href="/categories/%E7%BE%8E%E9%A3%9F/" 
+                  title="美食！"
+                  >美食！</a
+                >
+              </li></ul>
+      </div>
+    </div>
+  </div><div class="widget-wrapper">
+    <div
+      class="widget-wrap"
+      data-aos="fade-up"
+    >
       <h3 class="widget-title">最新文章</h3>
       <div class="widget">
         <ul><li>
-              <a href="/post/jiligula/" title="叽里呱啦">叽里呱啦</a>
+              <a href="/post/traveldiary/" title="旅行日记">旅行日记</a>
+            </li><li>
+              <a href="/post/food/" title="我的 世界食谱">我的 世界食谱</a>
+            </li><li>
+              <a href="/post/jiliguala/" title="叽里呱啦">叽里呱啦</a>
             </li></ul>
       </div>
     </div>
@@ -229,11 +256,42 @@
     class="archives-outer-wrap"
     data-aos="fade-up"
   ><div class="tag-wrap"></div>
-<div class="category-wrap"></div><section class="archives-wrap" data-aos="fade-up">
+<div class="category-wrap"><div
+      class="archives-category-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-category-list-link" href="/categories/%E7%BE%8E%E9%A3%9F/"
+        >美食！</a
+      >
+    </div></div><section class="archives-wrap" data-aos="fade-up">
     <div class="archive-year-wrap">
       <span class="archive-year">2025</span>
     </div>
     <ul><li class="archive-article">
+          <div class="archive-article-date">
+            <span>
+              <time
+                class="dt-published"
+                datetime="2025-10-16 00:00:00 &#43;0000 UTC"
+                itemprop="datePublished"
+                >2025-10</time
+              >
+            </span>
+          </div><a class="archive-article-title" href="/post/food/"
+              >我的 世界食谱</a
+            ></li><li class="archive-article">
+          <div class="archive-article-date">
+            <span>
+              <time
+                class="dt-published"
+                datetime="2025-10-16 00:00:00 &#43;0000 UTC"
+                itemprop="datePublished"
+                >2025-10</time
+              >
+            </span>
+          </div><a class="archive-article-title" href="/post/traveldiary/"
+              >旅行日记</a
+            ></li><li class="archive-article">
           <div class="archive-article-date">
             <span>
               <time
@@ -243,7 +301,7 @@
                 >2025-10</time
               >
             </span>
-          </div><a class="archive-article-title" href="/post/jiligula/"
+          </div><a class="archive-article-title" href="/post/jiliguala/"
               >叽里呱啦</a
             ></li></ul>
   </section></div><nav id="page-nav" aria-label="Pagination navigation" data-aos="fade-up"><span class="page-number current">1</span></nav>
@@ -269,10 +327,10 @@
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;2</span
+          >&nbsp;641</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:01</span>
+        <span class="icon-coffee">&nbsp;00:03</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -306,12 +364,12 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">1</div>
+    <div>文章</div><div class="sidebar-state-number">3</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
     <div class="sidebar-state-number">
-      0
+      1
     </div>
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
@@ -423,7 +481,163 @@
         } else {
           window.addEventListener('lightbox:ready', pswp);
         }
-      </script></div>
+      </script><script data-pjax>
+  var loadScript = (src, integrity) => {
+    const script = document.createElement('script');
+    script.src = src;
+    if (integrity) script.integrity = integrity;
+    script.crossOrigin = 'anonymous';
+    return script;
+  };
+  var commentConfigKeys = ['valine', 'waline', 'twikoo', 'gitalk', 'giscus'];
+  var commentConfig = {waline: {
+      enable: true,
+      load: async () => {
+        const container = document.querySelector('.waline-comment');
+        if (!container) return;
+        container.style.display = 'block';
+
+        let walineInit;
+        const walineCdn = 'https:\/\/npm.webcache.cn\/@waline\/client@2.15.8\/dist\/waline.mjs';
+        
+        if ('webcache|@waline\/client@2.15.8\/dist\/waline.mjs'.startsWith('local')) {
+          
+          const module = await safeImport(walineCdn);
+          walineInit = module.init;
+        } else {
+          
+          const module = await safeImport(
+            walineCdn, 
+            'sha384-9sbqJjrfGjbkI6\/PI4nU\/MvBfEmkkPC4YK9I4zBeMIf1CVCZdCMH\/KinBEAZII\/5'
+          );
+          walineInit = module.init;
+        }
+        
+        window.walineInstance = walineInit({
+          el: '.waline-comment',
+          serverURL: 'https:\/\/jiligualablog.github.io\/',
+          lang: document.documentElement.lang || 'en',
+          locale: JSON.parse("{}"),
+          emoji: JSON.parse("[\"https://unpkg.com/@waline/emojis@1.2.0/weibo\",\"https://unpkg.com/@waline/emojis@1.2.0/alus\",\"https://unpkg.com/@waline/emojis@1.2.0/bilibili\",\"https://unpkg.com/@waline/emojis@1.2.0/qq\",\"https://unpkg.com/@waline/emojis@1.2.0/tieba\",\"https://unpkg.com/@waline/emojis@1.2.0/tw-emoji\"]"),
+          meta: JSON.parse("[\"nick\",\"mail\"]"),
+          requiredMeta: JSON.parse("[\"nick\"]"),
+          wordLimit:  0 ,
+          comment: true,
+          pageSize:  10 ,
+          dark: 'html[data-theme="dark"]',
+          pageview:  true ,
+        });
+      }
+    },};
+  commentConfig.enable = commentConfigKeys.some(key => commentConfig?.[key]?.enable);
+
+  var defaultComment = '';
+  if (commentConfig.enable) {
+    
+    var savedCommentType = localStorage.getItem('commentType');
+    
+    
+    if (savedCommentType) {
+      if (commentConfig[savedCommentType]?.enable) {
+        defaultComment = savedCommentType;
+      }
+    }
+    
+    
+    if (!defaultComment) {
+      var configDefault = 'waline';
+      if (commentConfig[configDefault]?.enable) {
+        defaultComment = configDefault;
+      }
+    }
+    
+    
+    if (!defaultComment) {
+      defaultComment = commentConfigKeys.find(sys => commentConfig?.[sys]?.enable) || '';
+    }
+  }
+
+  function loadComments() {
+    if (!commentConfig.enable) return;
+    
+    const loadedComments = {
+      valine: false,
+      waline: false,
+      twikoo: false,
+      gitalk: false,
+      giscus: false
+    };
+
+    
+    const hideAllComments = () => {
+      const commentContainers = document.querySelectorAll('.comment');
+      commentContainers.forEach(container => {
+        container.style.display = 'none';
+      });
+    };
+
+    
+    const loadCommentSystem = (type) => {
+      if (loadedComments[type]) {
+        
+        document.querySelector(`.${type}-comment`).style.display = 'block';
+        return;
+      }
+
+      
+      commentConfig[type]?.load();
+      loadedComments[type] = true;
+    };
+
+    
+    const changeActiveCommentItems = (item) => {
+      const commentItems = document.querySelectorAll('.selector-item');
+      for (let i = 0; i < commentItems.length; i++) {
+        commentItems[i].classList.remove('active');
+      }
+      item.classList.add('active');
+
+      
+      const commentType = item.getAttribute('data-selector');
+
+      
+      hideAllComments();
+
+      
+      loadCommentSystem(commentType);
+    };
+
+    const commentInit = () => {
+      
+      const commentItems = document.querySelectorAll('.selector-item');
+      for (let item of commentItems) {
+        item.addEventListener('click', () => {
+          
+          const commentType = item.getAttribute('data-selector');
+          window.localStorage.setItem('commentType', commentType);
+          
+          changeActiveCommentItems(item);
+        });
+      }
+
+      
+      if (defaultComment) {
+        const defaultSelectorItem = document.querySelector(`[data-selector="${defaultComment}"]`);
+        if (!defaultSelectorItem) return;
+        defaultSelectorItem.style.display = 'block';
+        defaultSelectorItem.classList.add('active');
+        loadCommentSystem(defaultComment);
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', commentInit);
+    } else {
+      commentInit();
+    }
+  };
+  loadComments();
+</script></div>
 </div><script
     src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
     asyncintegrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>

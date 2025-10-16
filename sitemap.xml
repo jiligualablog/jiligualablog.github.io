@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/post/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <loc>https://example.org/categories/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/post/jiligula/</loc>
-    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+    <loc>https://example.org/post/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/traveldiary/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/categories/%E7%BE%8E%E9%A3%9F/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/food/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/jiliguala/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/archives/</loc>
@@ -19,8 +31,6 @@
   </url><url>
     <loc>https://example.org/friend/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/</loc>
   </url><url>
     <loc>https://example.org/tags/</loc>
   </url>
