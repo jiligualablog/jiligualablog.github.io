@@ -30,22 +30,10 @@
       <description>
         <![CDATA[<h1>我的 世界食谱</h1><p>作者：叽里呱啦（a2139886594@outlook.com）</p>
         
-          <h1 id="吃吃吃">
-<a class="header-anchor" href="#%e5%90%83%e5%90%83%e5%90%83"></a>
-吃吃吃！
-</h1><h2 id="宁波--红钳蟹椒盐油炸蟹酱">
-<a class="header-anchor" href="#%e5%ae%81%e6%b3%a2--%e7%ba%a2%e9%92%b3%e8%9f%b9%e6%a4%92%e7%9b%90%e6%b2%b9%e7%82%b8%e8%9f%b9%e9%85%b1"></a>
-宁波  红钳蟹（椒盐、油炸）、蟹酱
-</h2><h2 id="扬州--烫干丝">
-<a class="header-anchor" href="#%e6%89%ac%e5%b7%9e--%e7%83%ab%e5%b9%b2%e4%b8%9d"></a>
-扬州  烫干丝
-</h2><h2 id="台湾-虱目鱼鱼腹粥煎鱼柳鱼皮煲五柳汁">
-<a class="header-anchor" href="#%e5%8f%b0%e6%b9%be-%e8%99%b1%e7%9b%ae%e9%b1%bc%e9%b1%bc%e8%85%b9%e7%b2%a5%e7%85%8e%e9%b1%bc%e6%9f%b3%e9%b1%bc%e7%9a%ae%e7%85%b2%e4%ba%94%e6%9f%b3%e6%b1%81"></a>
-台湾 虱目鱼（鱼腹粥、煎鱼柳、鱼皮煲、五柳汁）
-</h2><h2 id="">
-<a class="header-anchor" href="#"></a>
-
-</h2>
+          <ul>
+<li><em>这里记录的是我在网上刷到的各地美食，未来的某天我要成为游历世界的美食猎人!!!</em></li>
+</ul>
+<p><em>“本来想只记菜名的但是有点单调。。还是先找图挂上等我吃上了再换成自己的照片”</em></p>
         
         <hr><p>本文2025-10-16首发于<a href='https://example.org/'>叽里呱啦的秘密基地</a>，最后修改于2025-10-16</p>]]>
       </description>
@@ -75,6 +63,8 @@
         <hr><p>本文2025-10-16首发于<a href='https://example.org/'>叽里呱啦的秘密基地</a>，最后修改于2025-10-16</p>]]>
       </description>
       
+        <category>旅行日记</category>
+      
     </item>
     
     
@@ -95,6 +85,8 @@ Hi !
         
         <hr><p>本文2025-10-14首发于<a href='https://example.org/'>叽里呱啦的秘密基地</a>，最后修改于2025-10-14</p>]]>
       </description>
+      
+        <category>叽里呱啦</category>
       
     </item>
     
