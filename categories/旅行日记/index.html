@@ -502,7 +502,7 @@
         );
         script.onload = () => {
           const GUEST_INFO = ['nick', 'mail', 'link'];
-          const guest_info = 'nick,mail'.split(',').filter((item) => {
+          const guest_info = 'nick,mail,'.split(',').filter((item) => {
             return GUEST_INFO.indexOf(item) > -1
           });
           const recordIP = JSON.parse('true');
@@ -545,7 +545,7 @@
     
     
     if (!defaultComment) {
-      var configDefault = 'valine';
+      var configDefault = '';
       if (commentConfig[configDefault]?.enable) {
         defaultComment = configDefault;
       }
