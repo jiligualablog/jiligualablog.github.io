@@ -61,7 +61,7 @@
   <meta property="article:published_time" content="2025-10-16T00:00:00&#43;00:00" />
   <meta property="article:modified_time" content="2025-10-16T00:00:00&#43;00:00" /><meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="/post/food/food.webp" />
-<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.a581ce7033b671785f3e63380fa7e61f5c3126ccd17ee783ffbbdcb852a6de19.css" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.f57da78512ecaab95ba9855541c299e59637c4e316ca679b8daa2245dd4620eb.css" />
 <link
     rel="preload"
     as="style"
@@ -72,10 +72,7 @@
     as="style"
     href="https://npm.webcache.cn/katex@0.16.22/dist/katex.min.css"
     integrity="sha384-5TcZemv2l/9On385z///&#43;d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
-  /><link
-    rel="stylesheet"
-    href="https://npm.webcache.cn/@waline/client@2.15.8/dist/waline.css"
-    integrity="sha384-vltfZtesCdl6NYVcFVcjEaIi5RpNvZe9t7fXvq8twVtcoy&#43;Ub9QgnxUYJmwOhYCK" crossorigin="anonymous"/><script
+  /><script
     src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
     integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
     rel="stylesheet"
@@ -329,20 +326,18 @@ xixi</li>
           class="article-comment-link"
         >
           <span
-            class="post-comments-count waline-comment-count"
-            data-path="https//example.org/post/food/"
+            class="post-comments-count valine-comment-count"
+            data-xid="https//example.org/post/food/"
             itemprop="commentCount"
           ></span>
           留言
         </a><span
           data-aos="zoom-in"
-          class="article-visitor-link"
+          id="/post/food/"
+          class="leancloud_visitors article-visitor-link"
+          data-flag-title="我的 世界食谱"
         >
-          <span
-            class="waline-pageview-count"
-            data-path="/post/food/"
-            >0</span
-          >
+          <span class="leancloud-visitors-count">0</span>
           <em class="post-meta-item-text">阅读量</em>
         </span><ul class="article-tag-list" itemprop="keywords"></ul>
 </footer>
@@ -377,13 +372,13 @@ xixi</li>
       </div></nav></article><section id="comments" data-aos="fade-up">
 <div class="comment-header"><h2 class="comment-title">留下你来过的痕迹吧！</h2>
   <div class="comment-selector">
-    <div class="comment-selector-wrap"><div class="selector-item" data-selector="waline">
-          <span>waline</span>
+    <div class="comment-selector-wrap"><div class="selector-item" data-selector="valine">
+          <span>valine</span>
         </div></div>
   </div>
 </div>
 
-<div class="comment-content"><div class="comment waline-comment" data-aos="fade-up"
+<div class="comment-content"><div class="comment valine-comment" data-aos="fade-up"
      >
     </div></div>
 </section></section>
@@ -408,10 +403,10 @@ xixi</li>
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;8.1k</span
+          >&nbsp;8.6k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:18</span>
+        <span class="icon-coffee">&nbsp;00:19</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -593,43 +588,44 @@ xixi</li>
     return script;
   };
   var commentConfigKeys = ['valine', 'waline', 'twikoo', 'gitalk', 'giscus'];
-  var commentConfig = {waline: {
+  var commentConfig = {valine: {
       enable: true,
-      load: async () => {
-        const container = document.querySelector('.waline-comment');
+      load: () => {
+        const container = document.querySelector('.valine-comment');
         if (!container) return;
         container.style.display = 'block';
 
-        let walineInit;
-        const walineCdn = 'https:\/\/npm.webcache.cn\/@waline\/client@2.15.8\/dist\/waline.mjs';
-        
-        if ('webcache|@waline\/client@2.15.8\/dist\/waline.mjs'.startsWith('local')) {
-          
-          const module = await safeImport(walineCdn);
-          walineInit = module.init;
-        } else {
-          
-          const module = await safeImport(
-            walineCdn, 
-            'sha384-9sbqJjrfGjbkI6\/PI4nU\/MvBfEmkkPC4YK9I4zBeMIf1CVCZdCMH\/KinBEAZII\/5'
-          );
-          walineInit = module.init;
-        }
-        
-        window.walineInstance = walineInit({
-          el: '.waline-comment',
-          serverURL: 'https:\/\/051125.xyz\/',
-          lang: document.documentElement.lang || 'en',
-          locale: JSON.parse("{\"zh-cn\":null}"),
-          emoji: JSON.parse("[\"https://unpkg.com/@waline/emojis@1.2.0/weibo\",\"https://unpkg.com/@waline/emojis@1.2.0/alus\",\"https://unpkg.com/@waline/emojis@1.2.0/bilibili\",\"https://unpkg.com/@waline/emojis@1.2.0/qq\",\"https://unpkg.com/@waline/emojis@1.2.0/tieba\",\"https://unpkg.com/@waline/emojis@1.2.0/tw-emoji\"]"),
-          meta: JSON.parse("[\"nick\",\"mail\"]"),
-          requiredMeta: JSON.parse("[\"nick\"]"),
-          wordLimit:  0 ,
-          comment: true,
-          pageSize:  10 ,
-          dark: 'html[data-theme="dark"]',
-          pageview:  true ,
-        });
+        const script = loadScript(
+          'https:\/\/npm.webcache.cn\/valine@1.5.1\/dist\/Valine.min.js',
+          !'webcache|valine@1.5.1\/dist\/Valine.min.js'.startsWith('local') ? 'sha384-3ma91AExDeMAZ1rjTjaP8V2A2obQE\u002bs5ltKRwYlwdpArz9xVbp0tF3b0VV2ACNPn' : undefined
+        );
+        script.onload = () => {
+          const GUEST_INFO = ['nick', 'mail', 'link'];
+          const guest_info = 'nick,mail'.split(',').filter((item) => {
+            return GUEST_INFO.indexOf(item) > -1
+          });
+          const recordIP = JSON.parse('true');
+          const highlight = JSON.parse('true');
+          const visitor = JSON.parse('true');
+          const serverURLs = 'cyuwflzb.api.lncldglobal.com';
+
+          new Valine({
+            el: '.valine-comment',
+            appId: "cyuwFLzBbXbJtWQoo8XdIRAE-MdYXbMMI",
+            appKey: "LP87Cryd6jp80JbnIiuUS7hP",
+            placeholder: "写些什么？",
+            pageSize: '10',
+            avatar: 'mp',
+            lang: document.documentElement.lang || 'en',
+            recordIP: recordIP,
+            highlight: highlight,
+            visitor: visitor,
+            requiredFields: guest_info,
+            path: window.location.pathname,
+            serverURLs,
+          });
+        };
+        document.head.appendChild(script);
       }
     },};
   commentConfig.enable = commentConfigKeys.some(key => commentConfig?.[key]?.enable);
@@ -648,7 +644,7 @@ xixi</li>
     
     
     if (!defaultComment) {
-      var configDefault = 'waline';
+      var configDefault = 'valine';
       if (commentConfig[configDefault]?.enable) {
         defaultComment = configDefault;
       }
