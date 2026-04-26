@@ -47,5 +47,7 @@
     <loc>https://example.org/tags/</loc>
   </url><url>
     <loc>https://example.org/about/</loc>
+  </url><url>
+    <loc>https://example.org/post/1/</loc>
   </url>
 </urlset>
